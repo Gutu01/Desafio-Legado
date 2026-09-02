@@ -16,11 +16,10 @@
             $db  = $app['db'];            
             try{
                 $dsn = "mysql:host={$db['host']};port={$db['port']};dbname={$db['name']};charset=utf8mb4";
-                $this->conexao = new PDO($dsn, $db['usuario'], $db['senha'],);
+                $this->conexao = new PDO($dsn, $db['user'], $db['pass'],);
             } catch (PDOException $e){
                 echo "Erro" . $e->getMessage();
             }
-            
         }
 
         public static function conectar(){

@@ -7,8 +7,8 @@
         'db'          => [
             'host'    => 'localhost'     ,
             'port'    => '3306'          ,
-            'name'    => ''              ,
-            'user'    => ''              ,
+            'name'    => 'legado'              ,
+            'user'    => 'root'              ,
             'pass'    => ''              ,
             'charset' => 'utf8md4'
         ]
