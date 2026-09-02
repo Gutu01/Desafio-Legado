@@ -1,5 +1,5 @@
 <?php
-    
+    require "../Desafio-Legado/dataBase.php";
     use Core\dataBase;
 
     class usuario {
@@ -31,6 +31,7 @@
     }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    
     $usuario = new usuario();
     $usuario->logar($_POST['email'] ?? '', $_POST['senha'] ?? '');
 }
