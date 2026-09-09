@@ -7,8 +7,8 @@
 </head>
 <body>
     <form action="usuario.php" method="post">
-        <input type="text" name="email">
-        <input type="password" name="senha">
+        <input type="text" name="email" placeholder="email">
+        <input type="password" name="senha" placeholder="senha">
         <input type="submit" value="Entrar">
     </form>
 </body>
